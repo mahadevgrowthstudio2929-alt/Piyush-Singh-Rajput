@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Piyush Singh Rajput | Premium Cricket Trading Community</title>
+
+    <meta name="description"
+        content="Join India's Premium Cricket Trading Community by Piyush Singh Rajput.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="bg-animation"></div>
+
+<header>
+
+<div class="logo">
+
+<img src="logo.png" alt="Logo">
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h3 class="small-title">
+🏏 PREMIUM CRICKET TRADING COMMUNITY
+</h3>
+
+<h1>
+
+PIYUSH <span>SINGH RAJPUT</span>
+
+</h1>
+
+<p>
+
+Get Premium Cricket Trading Analysis,
+Live Match Updates,
+Winning Strategies &
+Professional Community Support.
+
+</p>
+
+<a href="https://t.me/+2VK-5KQGVgJkM2Q1"
+target="_blank"
+class="join-btn">
+
+JOIN TELEGRAM NOW
+
+</a>
+
+</div>
+
+<div class="hero-glow"></div>
+
+</section>
+
+<section class="stats">
+
+<div class="card">
+
+<h2>Live</h2>
+
+<p>Match Insights</p>
+
+</div>
+
+<div class="card">
+
+<h2>Premium</h2>
+
+<p>Trading Analysis</p>
+
+</div>
+
+<div class="card">
+
+<h2>Daily</h2>
+
+<p>Winning Updates</p>
+
+</div>
+
+</section>
+
+<section class="features">
+
+<h2>
+
+Why Join Us?
+
+</h2>
+
+<div class="feature-grid">
+
+<div class="feature">
+
+<div class="icon">
+
+🏏
+
+</div>
+
+<h3>
+
+Professional Cricket Analysis
+
+</h3>
+
+<p>
+
+Daily high-quality analysis before every match.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">
+
+⚡
+
+</div>
+
+<h3>
+
+Instant Telegram Updates
+
+</h3>
+
+<p>
+
+Never miss important opportunities.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">
+
+📈
+
+</div>
+
+<h3>
+
+Winning Strategies
+
+</h3>
+
+<p>
+
+Simple and effective cricket trading guidance.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">
+
+🔒
+
+</div>
+
+<h3>
+
+Private Community
+
+</h3>
+
+<p>
+
+Exclusive Telegram members only.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">
+
+🔥
+
+</div>
+
+<h3>
+
+Premium Experience
+
+</h3>
+
+<p>
+
+Modern community with fast updates.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">
+
+⭐
+
+</div>
+
+<h3>
+
+Trusted Platform
+
+</h3>
+
+<p>
+
+Thousands of traders trust our updates.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>
+
+Ready To Join India's Premium Cricket Trading Community?
+
+</h2>
+
+<p>
+
+Click below and become a member today.
+
+</p>
+
+<a href="https://t.me/+2VK-5KQGVgJkM2Q1"
+target="_blank"
+class="join-btn">
+
+JOIN FREE TELEGRAM
+
+</a>
+
+</section>
+
+<footer>
+
+<div class="agency">
+
+<p>
+
+Ads Managed By
+
+</p>
+
+<h2>
+
+MAHADEV GROWTH STUDIO
+
+</h2>
+
+<a href="https://t.me/+fdwNrgBip-wyMTE9"
+
+target="_blank"
+
+class="agency-btn">
+
+Contact Agency
+
+</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 Piyush Singh Rajput.
+All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

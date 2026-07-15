@@ -1,0 +1,246 @@
+/* ======================================
+   PIYUSH SINGH RAJPUT
+   Premium Landing Page Script
+====================================== */
+
+/* ===========================
+   Scroll Reveal Animation
+=========================== */
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+
+            entry.target.classList.add("show");
+
+        }
+
+    });
+
+}, {
+
+    threshold: 0.15
+
+});
+
+document.querySelectorAll(".card, .feature, .cta, .hero-content").forEach(el => {
+
+    el.classList.add("hidden");
+
+    observer.observe(el);
+
+});
+
+
+/* ===========================
+   Mouse Glow Effect
+=========================== */
+
+const glow = document.createElement("div");
+
+glow.className = "mouse-glow";
+
+document.body.appendChild(glow);
+
+document.addEventListener("mousemove", (e) => {
+
+    glow.style.left = e.clientX + "px";
+
+    glow.style.top = e.clientY + "px";
+
+});
+
+
+/* ===========================
+   Floating Particles
+=========================== */
+
+for (let i = 0; i < 30; i++) {
+
+    let particle = document.createElement("span");
+
+    particle.className = "particle";
+
+    particle.style.left = Math.random() * 100 + "%";
+
+    particle.style.animationDelay = Math.random() * 6 + "s";
+
+    particle.style.animationDuration = 5 + Math.random() * 8 + "s";
+
+    particle.style.opacity = Math.random();
+
+    document.body.appendChild(particle);
+
+}
+
+
+/* ===========================
+   Button Ripple Effect
+=========================== */
+
+document.querySelectorAll(".join-btn,.agency-btn").forEach(btn => {
+
+    btn.addEventListener("click", function (e) {
+
+        let ripple = document.createElement("span");
+
+        ripple.className = "ripple";
+
+        ripple.style.left =
+
+            e.offsetX + "px";
+
+        ripple.style.top =
+
+            e.offsetY + "px";
+
+        this.appendChild(ripple);
+
+        setTimeout(() => {
+
+            ripple.remove();
+
+        }, 700);
+
+    });
+
+});
+
+
+/* ===========================
+   Hero Floating Effect
+=========================== */
+
+const hero = document.querySelector(".hero-content");
+
+document.addEventListener("mousemove", (e) => {
+
+    let x = (window.innerWidth / 2 - e.clientX) / 45;
+
+    let y = (window.innerHeight / 2 - e.clientY) / 45;
+
+    hero.style.transform =
+
+        `translate(${x}px, ${y}px)`;
+
+});
+
+
+/* ===========================
+   Stats Counter Animation
+=========================== */
+
+const counters = document.querySelectorAll(".card h2");
+
+counters.forEach(counter => {
+
+    const original = counter.innerText;
+
+    if (!isNaN(original)) {
+
+        let count = 0;
+
+        const update = () => {
+
+            if (count < original) {
+
+                count++;
+
+                counter.innerText = count;
+
+                requestAnimationFrame(update);
+
+            } else {
+
+                counter.innerText = original;
+
+            }
+
+        }
+
+        update();
+
+    }
+
+});
+
+
+/* ===========================
+   Card Tilt Effect
+=========================== */
+
+document.querySelectorAll(".feature,.card").forEach(card => {
+
+    card.addEventListener("mousemove", (e) => {
+
+        const rect = card.getBoundingClientRect();
+
+        const x = e.clientX - rect.left;
+
+        const y = e.clientY - rect.top;
+
+        const rotateX = ((y / rect.height) - 0.5) * -12;
+
+        const rotateY = ((x / rect.width) - 0.5) * 12;
+
+        card.style.transform =
+
+            `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.03)`;
+
+    });
+
+    card.addEventListener("mouseleave", () => {
+
+        card.style.transform =
+
+            "rotateX(0deg) rotateY(0deg) scale(1)";
+
+    });
+
+});
+
+
+/* ===========================
+   Auto Glow Pulse
+=========================== */
+
+setInterval(() => {
+
+    document.querySelectorAll(".join-btn").forEach(btn => {
+
+        btn.classList.add("pulse");
+
+        setTimeout(() => {
+
+            btn.classList.remove("pulse");
+
+        }, 1200);
+
+    });
+
+}, 3500);
+
+
+/* ===========================
+   Smooth Scroll
+=========================== */
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+    anchor.addEventListener("click", function (e) {
+
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+
+            behavior: "smooth"
+
+        });
+
+    });
+
+});
+
+console.log("🔥 Mahadev Growth Studio Landing Page Loaded Successfully");
