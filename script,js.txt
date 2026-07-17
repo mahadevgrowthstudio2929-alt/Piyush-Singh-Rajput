@@ -1,0 +1,81 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const menuButton = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".nav-links");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  menuButton.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("open");
+    menuButton.setAttribute("aria-expanded", isOpen);
+
+    const bars = menuButton.querySelectorAll("span");
+    if (isOpen) {
+      bars[0].style.transform = "translateY(7px) rotate(45deg)";
+      bars[1].style.opacity = "0";
+      bars[2].style.transform = "translateY(-7px) rotate(-45deg)";
+    } else {
+      bars.forEach(bar => {
+        bar.style.transform = "";
+        bar.style.opacity = "";
+      });
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+
+      menuButton.querySelectorAll("span").forEach(bar => {
+        bar.style.transform = "";
+        bar.style.opacity = "";
+      });
+    });
+  });
+
+  const faqButtons = document.querySelectorAll(".faq-question");
+
+  faqButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const answer = button.nextElementSibling;
+      const isExpanded = button.getAttribute("aria-expanded") === "true";
+
+      faqButtons.forEach(otherButton => {
+        otherButton.setAttribute("aria-expanded", "false");
+        otherButton.nextElementSibling.style.maxHeight = null;
+      });
+
+      if (!isExpanded) {
+        button.setAttribute("aria-expanded", "true");
+        answer.style.maxHeight = answer.scrollHeight + "px";
+      }
+    });
+  });
+
+  const confidenceBar = document.getElementById("confidenceBar");
+  const confidenceValue = document.getElementById("confidenceValue");
+
+  const animateConfidence = () => {
+    let value = 0;
+    const target = 72;
+
+    const timer = setInterval(() => {
+      value += 1;
+      confidenceValue.textContent = value;
+      confidenceBar.style.width = value + "%";
+
+      if (value >= target) clearInterval(timer);
+    }, 18);
+  };
+
+  const matchCard = document.querySelector(".match-card");
+  const observer = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) {
+      animateConfidence();
+      observer.disconnect();
+    }
+  }, { threshold: 0.35 });
+
+  observer.observe(matchCard);
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+});

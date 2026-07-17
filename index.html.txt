@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Piyush Singh Rajput Cricket Analysis — daily match insights, team updates and expert cricket research.">
+  <title>Piyush Singh Rajput | Cricket Analysis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-bg">
+    <div class="noise"></div>
+    <div class="grid"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+  </div>
+
+  <header class="header">
+    <a href="#home" class="brand" aria-label="Piyush Singh Rajput home">
+      <span class="brand-mark">PSR</span>
+      <span class="brand-name">PIYUSH<br>SINGH RAJPUT</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="#today">Today's Match</a>
+      <a href="#benefits">Why Join</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://t.me/+2VK-5KQGVgJkM2Q1" target="_blank" rel="noopener" class="nav-cta">Join Free</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="live-dot"></span>
+          Official Cricket Analysis Channel
+        </div>
+
+        <p class="hero-kicker">For cricket fans who love the game</p>
+        <h1>Daily Cricket <span>Prediction</span> & Match Analysis</h1>
+        <p class="hero-text">
+          Match research, team news, pitch insights aur important updates — all in one free Telegram channel.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://t.me/+2VK-5KQGVgJkM2Q1" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.7 3.3 18.5 19c-.2 1.1-.9 1.4-1.8.9l-5.1-3.8-2.5 2.4c-.3.3-.5.5-1 .5l.4-5.2 9.5-8.6c.4-.4-.1-.6-.6-.3L5.7 12.3.7 10.7c-1.1-.4-1.1-1.1.2-1.6L20.4 1.6c.9-.3 1.7.2 1.3 1.7Z"/></svg>
+            Join Free Channel
+            <span>→</span>
+          </a>
+          <a class="button button-ghost" href="#today">View Match Insight</a>
+        </div>
+
+        <div class="trust-row">
+          <div><strong>100%</strong><span>Free Access</span></div>
+          <div><strong>Daily</strong><span>Match Updates</span></div>
+          <div><strong>Fast</strong><span>Telegram Alerts</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="radar-card">
+          <div class="radar-top">
+            <span>CRICKET INTELLIGENCE</span>
+            <span class="online"><i></i> LIVE</span>
+          </div>
+
+          <div class="radar-center">
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="ball">🏏</div>
+            <span class="radar-point point-1"></span>
+            <span class="radar-point point-2"></span>
+            <span class="radar-point point-3"></span>
+          </div>
+
+          <div class="radar-bottom">
+            <div>
+              <small>CHANNEL</small>
+              <strong>PSR ANALYSIS</strong>
+            </div>
+            <div>
+              <small>STATUS</small>
+              <strong class="green">ACTIVE</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card float-card-one">
+          <span class="icon-box">📊</span>
+          <div><b>Data-backed</b><small>Match research</small></div>
+        </div>
+
+        <div class="floating-card float-card-two">
+          <span class="icon-box">⚡</span>
+          <div><b>Quick Updates</b><small>Toss to playing XI</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker-wrap">
+      <div class="ticker">
+        <div class="ticker-track">
+          <span>IPL ANALYSIS</span><b>✦</b>
+          <span>T20 INSIGHTS</span><b>✦</b>
+          <span>TEAM NEWS</span><b>✦</b>
+          <span>PITCH REPORTS</span><b>✦</b>
+          <span>MATCH PREVIEWS</span><b>✦</b>
+          <span>IPL ANALYSIS</span><b>✦</b>
+          <span>T20 INSIGHTS</span><b>✦</b>
+          <span>TEAM NEWS</span><b>✦</b>
+          <span>PITCH REPORTS</span><b>✦</b>
+          <span>MATCH PREVIEWS</span><b>✦</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="section feature-section">
+      <div class="section-heading center">
+        <span class="section-label">WHAT YOU GET</span>
+        <h2>Cricket updates, <span>made clearer.</span></h2>
+        <p>Har important match ke liye focused aur easy-to-understand analysis.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <div class="feature-icon">🏏</div>
+          <h3>Daily Match Analysis</h3>
+          <p>Team form, head-to-head records aur key match factors in one place.</p>
+        </article>
+
+        <article class="feature-card featured">
+          <span class="feature-number">02</span>
+          <div class="feature-icon">🔎</div>
+          <h3>Expert Insights</h3>
+          <p>Pitch, weather, probable XI aur recent performance par useful perspective.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <div class="feature-icon">⚡</div>
+          <h3>Fast Updates</h3>
+          <p>Toss, playing XI aur match-day updates directly on Telegram.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section match-section" id="today">
+      <div class="section-heading">
+        <span class="section-label">MATCH DESK</span>
+        <h2>Today’s <span>match watch</span></h2>
+      </div>
+
+      <article class="match-card">
+        <div class="match-header">
+          <span class="match-tag">FEATURED ANALYSIS</span>
+          <span class="match-time">Match Day · 7:30 PM IST</span>
+        </div>
+
+        <div class="teams">
+          <div class="team">
+            <div class="team-logo team-a">A</div>
+            <h3>Team A</h3>
+            <p>Recent Form: Strong</p>
+          </div>
+
+          <div class="versus">VS</div>
+
+          <div class="team">
+            <div class="team-logo team-b">B</div>
+            <h3>Team B</h3>
+            <p>Recent Form: Competitive</p>
+          </div>
+        </div>
+
+        <div class="analysis-meter">
+          <div class="meter-top">
+            <span>Match Analysis Confidence</span>
+            <strong><span id="confidenceValue">72</span>%</strong>
+          </div>
+          <div class="meter-bar"><span id="confidenceBar"></span></div>
+          <p>Full match context, key factors aur latest update channel par dekhein.</p>
+        </div>
+
+        <a class="match-link" href="https://t.me/+2VK-5KQGVgJkM2Q1" target="_blank" rel="noopener">
+          Get Full Analysis <span>→</span>
+        </a>
+      </article>
+    </section>
+
+    <section class="section benefits-section" id="benefits">
+      <div class="benefit-visual">
+        <div class="visual-badge">PSR</div>
+        <p>CRICKET<br>ANALYSIS<br><span>CHANNEL</span></p>
+        <div class="visual-lines"></div>
+      </div>
+
+      <div class="benefit-copy">
+        <span class="section-label">WHY THE CHANNEL</span>
+        <h2>Simple insights.<br><span>Better match context.</span></h2>
+        <p>Noise se door rahiye aur match se pehle genuinely useful cricket updates paaiye.</p>
+
+        <ul class="benefit-list">
+          <li><span>✓</span> Easy Hinglish mein clear analysis</li>
+          <li><span>✓</span> Major leagues aur important matches coverage</li>
+          <li><span>✓</span> No subscription, free Telegram access</li>
+          <li><span>✓</span> Responsible, information-only content</li>
+        </ul>
+
+        <a class="text-link" href="https://t.me/+2VK-5KQGVgJkM2Q1" target="_blank" rel="noopener">Explore the channel <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="section-heading center">
+        <span class="section-label">COMMUNITY VOICES</span>
+        <h2>What cricket fans <span>say</span></h2>
+      </div>
+
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="quote">“</div>
+          <p>Match se pehle pitch aur team updates ek jagah mil jaate hain. Kaafi clean aur useful channel hai.</p>
+          <div class="reviewer"><span>RK</span><div><strong>Rohit Kumar</strong><small>Cricket Fan</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="quote">“</div>
+          <p>Language simple hai aur updates time par aate hain. Daily cricket follow karne mein help milti hai.</p>
+          <div class="reviewer"><span>AS</span><div><strong>Ankit शर्मा</strong><small>Channel Member</small></div></div>
+        </article>
+
+        <article class="review-card">
+          <div class="quote">“</div>
+          <p>Analysis ka format bahut easy hai. Team news aur probable XI wali posts especially achchi lagti hain.</p>
+          <div class="reviewer"><span>VD</span><div><strong>Vikram Desai</strong><small>Cricket Enthusiast</small></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="section-heading">
+        <span class="section-label">FAQ</span>
+        <h2>Quick <span>answers</span></h2>
+      </div>
+
+      <div class="faq-list">
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Is channel ko join karna free hai?<span>+</span></button>
+          <div class="faq-answer"><p>Haan, Telegram channel ko join karna completely free hai.</p></div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Channel par kis type ke updates milte hain?<span>+</span></button>
+          <div class="faq-answer"><p>Match previews, team updates, pitch information, probable XI aur cricket analysis share kiya jata hai.</p></div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Kya analysis guaranteed result deta hai?<span>+</span></button>
+          <div class="faq-answer"><p>Nahi. Cricket unpredictable game hai. Content sirf informational analysis aur cricket discussion ke purpose ke liye hai.</p></div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Telegram channel kaise join karein?<span>+</span></button>
+          <div class="faq-answer"><p>“Join Free Channel” button par click kijiye aur Telegram mein channel open ho jayega.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="cta-orbit"></div>
+      <span class="section-label">READY FOR MATCH DAY?</span>
+      <h2>Join the cricket<br><span>conversation today.</span></h2>
+      <p>Daily match insights aur important updates ke liye official Telegram channel join karein.</p>
+      <a class="button button-primary" href="https://t.me/+2VK-5KQGVgJkM2Q1" target="_blank" rel="noopener">
+        Join Free Channel <span>→</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><span>PSR</span> PIYUSH SINGH RAJPUT</div>
+    <p>This platform provides cricket analysis and predictions for informational purposes only. We do not guarantee outcomes.</p>
+    <p class="copyright">© <span id="year"></span> Piyush Singh Rajput. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
